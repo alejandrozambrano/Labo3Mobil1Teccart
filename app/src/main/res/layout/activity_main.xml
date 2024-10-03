@@ -27,7 +27,7 @@
             android:src="@drawable/dollar" />
 
         <EditText
-            android:id="@+id/txtNombre"
+            android:id="@+id/txtName"
             android:layout_width="356dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -43,7 +43,8 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="Start your burget"
-            android:textSize="80px"/>
+            android:textSize="80px"
+            android:id="@+id/btnStart"/>
 
 
     </LinearLayout>
