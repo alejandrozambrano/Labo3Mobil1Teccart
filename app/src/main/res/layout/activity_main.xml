@@ -20,35 +20,31 @@
             android:text="Bienvenue du Banque Canada"
             android:textSize="170px" />
 
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="198dp"
+            android:layout_gravity="center"
+            android:src="@drawable/dollar" />
+
         <EditText
             android:id="@+id/txtNombre"
-            android:layout_width="301dp"
+            android:layout_width="356dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="16dp"
             android:layout_marginBottom="16dp"
-            android:hint="Nom:"
+            android:hint="Your Name here:"
             android:minHeight="48dp"
             android:textSize="80px" />
 
-        <EditText
-            android:id="@+id/txtEstudent"
-            android:layout_width="301dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="16dp"
-            android:layout_marginBottom="16dp"
-            android:hint="Prenom:"
-            android:minHeight="48dp"
-            android:textSize="80px" />
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="363dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="Enter"
-            android:textSize="80px"
-            android:onClick="SaveDinamique"/>
+            android:text="Start your burget"
+            android:textSize="80px"/>
+
 
     </LinearLayout>
 </android.widget.RelativeLayout>
