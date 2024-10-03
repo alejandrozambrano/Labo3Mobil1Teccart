@@ -59,7 +59,8 @@
                 android:layout_width="133dp"
                 android:layout_height="wrap_content"
                 android:hint="Montant"
-                android:textSize="40px" />
+                android:textSize="40px"
+                android:id="@+id/txtMontant"/>
         </LinearLayout>
 
 
